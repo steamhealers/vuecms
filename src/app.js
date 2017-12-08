@@ -2,6 +2,7 @@ import Vue from 'vue'
 import axios from 'axios'
 import VueRouter from 'vue-router'
 import app from './app.vue'
+
 import '../statics/css/mui.min.css'
 import '../statics/fonts/mui.ttf'
 

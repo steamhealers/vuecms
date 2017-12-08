@@ -4,10 +4,10 @@
 
     <ul class="mui-table-view mui-grid-view mui-grid-9">
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-4" v-for="(item,index) in menus" :key="index">
-        <a :href="item.url">
+        <router-link :to="item.url">
           <span class="mui-icon" :class="item.className"></span>
           <div class="mui-media-body">{{item.title}}</div>
-        </a>
+        </router-link>
       </li>
 
 
